@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nfs.mapper.OrderMapper">
+    <!--添加订单-->
+    <insert id="addOrder" parameterType="com.nfs.bean.Order">
+        insert into tb_order(order_id,created,sum_price,user_id)
+        values (#{order_id},#{created},#{sum_price},#{user_id})
+    </insert>
+    <!--添加订单的中间表-->
+    <insert id="addOrderDetails" parameterType="com.nfs.bean.OrderDetails">
+        insert into tb_order_details (order_id,created,course_id,unit_price,count)
+        values (#{order_id},#{created},#{course_id},#{unit_price},#{count})
+    </insert>
+
+    <!--添加order_task-->
+    <insert id="addOrderTask" parameterType="com.nfs.bean.OrderTask">
+        insert into tb_order_task(task_id,body) values (#{task_id},#{body})
+    </insert>
+
+    <!--所有的order_task-->
+    <select id="list" resultType="com.nfs.bean.OrderTask">
+        select * from tb_order_task
+    </select>
+
+    <!--根据id查询 order_task-->
+    <select id="selectById" parameterType="String" resultType="com.nfs.bean.OrderTask">
+        select * from tb_order_task where task_id=#{task_id}
+    </select>
+
+    <!--根据id进行删除-->
+    <delete id="deleteById" parameterType="String">
+        delete from tb_order_task where task_id=#{task_id}
+    </delete>
+
+    <!--添加到orderTask的历史记录当中-->
+    <insert id="addOrderTaskHis" parameterType="com.nfs.bean.OrderTask">
+        insert into tb_order_task_his(task_id,body) values (#{task_id},#{body})
+    </insert>
+</mapper>

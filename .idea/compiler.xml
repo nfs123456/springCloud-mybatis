@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yk_demo_provider_8002" />
+        <module name="yk_demo_provider_8001" />
+        <module name="yk_demo_api" />
+        <module name="yk_demo_eureka7001" />
+        <module name="yk_demo_mq_8003" />
+        <module name="yk_demo_getway_9527" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yk_demo" options="-parameters" />
+      <module name="yk_demo_api" options="-parameters" />
+      <module name="yk_demo_eureka7001" options="-parameters" />
+      <module name="yk_demo_getway_9527" options="-parameters" />
+      <module name="yk_demo_mq_8003" options="-parameters" />
+      <module name="yk_demo_provider_8001" options="-parameters" />
+      <module name="yk_demo_provider_8002" options="-parameters" />
+    </option>
+  </component>
+</project>

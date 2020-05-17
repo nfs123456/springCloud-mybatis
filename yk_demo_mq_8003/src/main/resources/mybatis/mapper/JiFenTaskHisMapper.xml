@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nfs.mapper.JiFenTaskHisMapper">
+
+    <select id="selectById" resultType="com.nfs.bean.JiFenTaskHis" parameterType="String">
+        select * from tb_jifen_task_his where task_id=#{task_id}
+    </select>
+    <update id="updateScore" parameterType="com.nfs.bean.JiFen">
+        update tb_jifen set score=score+#{score} where user_id=#{user_id}
+    </update>
+    <insert id="addjiFenHisTask" parameterType="com.nfs.bean.OrderTask">
+        insert into tb_jifen_task_his(task_id,body)values (#{task_id},#{body})
+    </insert>
+</mapper>
