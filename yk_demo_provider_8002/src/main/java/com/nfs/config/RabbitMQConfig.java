@@ -5,26 +5,13 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * 1111233456
- */
 @Configuration
 public class RabbitMQConfig {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /**
+     * 这个部分是测试过的
+     *
+     */
     //添加选课任务交换机 路由
     public static final String EX_LEARNING_ADDCHOOSECOURSE = "ex_learning_addchoosecourse";
 
