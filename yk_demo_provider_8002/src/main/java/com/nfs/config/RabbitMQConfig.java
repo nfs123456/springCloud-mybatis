@@ -10,7 +10,7 @@ public class RabbitMQConfig {
 
     /**
      * 这个部分是测试过的
-     *
+     * 再次测试
      */
     //添加选课任务交换机 路由
     public static final String EX_LEARNING_ADDCHOOSECOURSE = "ex_learning_addchoosecourse";

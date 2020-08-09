@@ -207,7 +207,16 @@
       <workItem from="1596802701034" duration="1806000" />
       <workItem from="1596884751559" duration="114000" />
       <workItem from="1596895023112" duration="958000" />
+      <workItem from="1596934158752" duration="97000" />
     </task>
+    <task id="LOCAL-00001" summary="send2">
+      <created>1596896636853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596896636853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +259,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="send2" />
+    <option name="LAST_COMMIT_MESSAGE" value="send2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1589356943866">
@@ -309,22 +319,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596895834257" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596896114555">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596896856867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596896114555" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1596884752094">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596896856867" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1596934159251">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596884752094" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596934159251" />
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596896006975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596896006975" />
-    <state x="439" y="203" key="git4idea.merge.GitPullDialog" timestamp="1596896094787">
+    <state x="439" y="203" key="git4idea.merge.GitPullDialog" timestamp="1596896757954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1596896094787" />
+    <state x="439" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1596896757954" />
     <state x="178" y="107" key="new project wizard" timestamp="1589356844724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
